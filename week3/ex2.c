@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
+int num = 0;
+int main(int argc, char*argv[]){
+	int i=0;
+	while(1){
+		i++;
+		if (i%10==0) {
+
+			int pid;
+		 	pid = fork();
+			if(pid == 0){ /*child*/
+				printf("Child %d\n",i);
+				sleep(1);
+				exit(0);
+			}else if(pid > 0){ /*parent*/
+				printf("Parent %d\n",i);	
+			}
+
+		}
+	}
+}

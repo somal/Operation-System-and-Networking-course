@@ -1,0 +1,325 @@
+    1  ls -l
+    2  cd ..
+    3  ls -l
+    4  cd m.sokolov/
+    5  cd ..
+    6  ls
+    7  cd test
+    8  cd testt
+    9  cd teastauth
+   10  cd testauth
+   11  cd v.tkachuk
+   12  sudo cd v.tkachuk
+   13  ls -l
+   14  mkdir week1
+   15  ls -l
+   16  cd m.sokolov/
+   17  ls -l
+   18  mkdir week1
+   19  ls -l
+   20  cd week1/
+   21  ls -l
+   22  gedit ex1.c
+   23  gcc -o ex1.c 
+   24  gcc ex1.c
+   25  ls -l
+   26  ./a.out 
+   27  rm -f a.out 
+   28  ls- l
+   29  ls -l
+   30  gcc ex1.c -o ex1
+   31  ls -l
+   32  ex1
+   33  ./ex1`
+   34  ./ex1
+   35  alias ssh_to_sa='ssh -X  m.sokolov@osc-5.edu.innopolis.ru'
+   36  gedit ex1.c
+   37  gedit ex2.c
+   38  ls -l
+   39  gcc ex2.c
+   40  gedit ex2.c
+   41  ls -l
+   42  ./a.out 
+   43  gedit ex2.c
+   44  gedit ex3.h
+   45  gedit ex3.c
+   46  ls -l
+   47  gcc ex3.c
+   48  ./a.out 
+   49  gedit
+   50  gedit -V
+   51  cd ..
+   52  mkdir gedit_plugins
+   53  cd gedit_plugins/
+   54  svn checkout http://gedit-intelligent-text-completion.googlecode.com/svn/trunk/gedit3-8/ gedit-intelligent-text-completionsvn checkout http://gedit-intelligent-text-completion.googlecode.com/svn/trunk/gedit3-8/ gedit-intelligent-text-completion
+   55  sudo apt-get install svn
+   56  apt-get install svn
+   57  cd ..
+   58  rm gedit_plugins/
+   59  rm -f gedit_plugins/
+   60  rm -r gedit_plugins/
+   61  ls -l
+   62  cd week1/
+   63  ls -l
+   64  mkdir ex4
+   65  cd ex4/
+   66  ls -l
+   67  gedit hello.h
+   68  gedit hello.c
+   69  gedit main.c
+   70  gcc main.c
+   71  gedit main.c
+   72  gcc main.c
+   73  ls -l
+   74  gedit main.c
+   75  gcc main.c
+   76  ./a.out 
+   77  gedit hello.c
+   78  gcc main.c
+   79  ./a.out 
+   80  gedit main.c
+   81  gcc main.c
+   82  gedit main.c
+   83  gcc main.c
+   84  gedit main.c
+   85  gcc main.c
+   86  ./a.out 
+   87  ls -l
+   88  gedit main.c &
+   89  gcc main.c
+   90  ./a.out 
+   91  gcc main.c -o main.c
+   92  ls -l
+   93  ./main.c 
+   94  gcc main.c
+   95  ./a.out 
+   96  rm a.out 
+   97  gcc main.c
+   98  ls -l
+   99  ./a.out 
+  100  ls -l
+  101  gcc main.c
+  102  ./a.out 
+  103  ls -l
+  104  cd week1/
+  105  ls -l
+  106  cd ex4/
+  107  ls -l
+  108  gcc main.c hello.c
+  109  gedit hello.c
+  110  gcc main.c hello.c
+  111  gcc hello.c
+  112  gedit hello.c
+  113  gcc hello.c
+  114  gedit hello.c &
+  115  gcc hello.c main.c
+  116  ./a.out 
+  117  gcc hello.c main.c
+  118  ./a.out 
+  119  ls -l
+  120  exit
+  121  учше
+  122  exit
+  123  ls -l
+  124  git init
+  125  ls -l
+  126  git status
+  127  mkdir
+  128  mkdir week4
+  129  cd week4
+  130  mkdir ex1
+  131  cd ex1
+  132  gedit ex1.c
+  133  gcc ex1.c
+  134  ./a.out 
+  135  gedit ex1.c &
+  136  cd ..
+  137  mkdir ex2
+  138  cd ex2
+  139  ls -l
+  140  gedit ex2.c
+  141  gedit ex2.c &
+  142  top
+  143  gcc ex2.c
+  144  ./a.out 
+  145  gcc ex2.c
+  146  ./a.out 
+  147  cd ..
+  148  mkdir ex3 && cd ex3
+  149  ls -l
+  150  gedit ex3.c &
+  151  gcc ex3.c
+  152  ./a.out 
+  153  man signal
+  154  ./a.out 
+  155  cd ..
+  156  cp ex3 ex4
+  157  cp ex4 ex3
+  158  ls -l
+  159  cp ex3 ex4
+  160  mkdir ex4
+  161  cp ex3 ex4
+  162  cp ex3/ex3.c ex4/ex4.c
+  163  cd ex4
+  164  gedit ex4.c
+  165  gedit ex4.c &
+  166  gcc ex4.c
+  167  ./a.out 
+  168  gcc ex4.c
+  169  ./a.out 
+  170  gcc ex4.c
+  171  ./a.out 
+  172  ./a.out *
+  173  gcc ex4.c
+  174  ./a.out 
+  175  ./a.out &
+  176  kill -USR1 8703
+  177  ./a.out &
+  178  kill -USR1 8703
+  179  kill -USR1 8722
+  180  ./a.out &
+  181  kill -STOP 8769
+  182  kill -CONT 8769
+  183  kill -USR1 8769
+  184  ./a.out &
+  185  kill -USR1 8806
+  186  kill -STOP 8806
+  187  ./a.out &
+  188  kill -USR1 8953
+  189  ./a.out &
+  190  pgrep ./a.out
+  191  bg
+  192  pg aux
+  193  ps aux
+  194  kill -STOP 8900
+  195  cd ..
+  196  mkdir ex5
+  197  cp ex4/*.* ex5/
+  198  cd ex5
+  199  ls -l
+  200  rm ex4*.*
+  201  ls -l
+  202  cd ..
+  203  cp ex4/*.* ex5/*.*
+  204  cp ex4/ex4.c ex5/ex5.c
+  205  cd ex5
+  206  ls -l
+  207  gedit ex5.c &
+  208  gcc ex5.c
+  209  ./a.out 
+  210  gcc ex5.c
+  211  ./a.out 
+  212  gcc ex5.c
+  213  ./a.out 
+  214  exit()
+  215  exit
+  216  ls -l
+  217  cd week4
+  218  ls -l
+  219  cp ex5/ex5.c ex6/ex6.c
+  220  mkdir ex6
+  221  cp ex5/ex5.c ex6/ex6.c
+  222  ls -l
+  223  cd ex6
+  224  ls -
+  225  ls -l
+  226  gedit ex6.c
+  227  gcc ex6.c
+  228  gedit ex6.c &
+  229  gcc ex6.c
+  230  ./a.out 
+  231  gcc ex6.c
+  232  ./a.out 
+  233  gedit ex6.c &
+  234  ./a.out 
+  235  gcc ex6.c
+  236  ./a.out 
+  237  gcc ex6.c
+  238  ./a.out 
+  239  gcc ex6.c
+  240  ./a.out 
+  241  gcc ex6.c
+  242  ./a.out 
+  243  gcc ex6.c
+  244  ./a.out 
+  245  gcc ex6.c
+  246  ./a.out 
+  247  gcc ex6.c
+  248  ./a.out 
+  249  top
+  250  ls -l
+  251  cd ..
+  252  ls -l
+  253  git init 
+  254  git status
+  255  git add week1
+  256  git add week4
+  257  git status
+  258  git commit -m "Add week1 week4"
+  259  git push
+  260  git remote add origin https://github.com/Somal/Operation-System-and-Networking-course.git
+  261  git push -u origin master
+  262  pwd
+  263  head
+  264  head -20 file
+  265  head -20
+  266  man cp
+  267  man exit()
+  268  man exit
+  269  wc -l
+  270  ls -l | wc -l
+  271  ls -l
+  272  ps ax
+  273  ls -l
+  274  ls [s]
+  275  ls -l [s]
+  276  ls [s]*
+  277  ls -
+  278  ls -l
+  279  ls [w]*
+  280  ls *[e]*
+  281  ls /usr/bin
+  282  ls /usr/bin [s]* |wc -l
+  283  ls /usr/bin [s]* 
+  284  cd /usr/bin
+  285  ls [s]*
+  286  ls [s]* | wc -l
+  287  gedit /usr/share/tmp/dummy.txt &
+  288  head -3t /usr/share/tmp/dummy.txt 
+  289  head -3 /usr/share/tmp/dummy.txt 
+  290  head --help
+  291  taild -3 /usr/share/tmp/dummy.txt 
+  292  tail -3 /usr/share/tmp/dummy.txt 
+  293  ps ax|grep getty
+  294  time
+  295  date
+  296  date --time
+  297  date --help
+  298  date %::z
+  299  date +%::z
+  300  date %H %M %S
+  301  date %H;date %M;date  %S
+  302  date -%H;date %M;date  %S
+  303  date +%H
+  304  date +%H +%M +%S
+  305  date +%H;date +%M;date +%S
+  306  date +%x_%r
+  307  date +%r
+  308  date +%r|head 8
+  309  date +%r|head -8
+  310  date +%H:%M:%S
+  311  cd ~
+  312  ls -l
+  313  mkdir week2
+  314  cd week2
+  315  date +%H:%M:%S >time.txt
+  316  gedit time.txt 
+  317  echo "“Time to wake up" > run.sh
+  318  ls -l
+  319  chmod +x run.sh 
+  320  ./run.sh 
+  321  nano run.sh 
+  322  ./run.sh 
+  323  nano run.sh 
+  324  ./run.sh 
+  325  history > history.txt
