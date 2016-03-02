@@ -1,0 +1,4 @@
+Amount of byte addresses for 8Kb page is 8*1024=2^13.
+So offset in address have 13 bit.
+So page address have 16-13 =3 bit
+So amount of pages id 2^3=8 pages.

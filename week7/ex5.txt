@@ -1,0 +1,2 @@
+Physical address is address on hard-coded real piece of memory chip
+Virtual address is address on virtual memory which include physical memory and virtual memory. So it can be link on physical address or on virtual memory (on additional memory on hard disk)
